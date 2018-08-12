@@ -1,4 +1,7 @@
 # coding:utf-8
+"""
+调用chrome打开网页
+"""
 from selenium import webdriver
 from time import sleep
 browser = webdriver.Chrome()
